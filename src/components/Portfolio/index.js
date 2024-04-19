@@ -369,6 +369,56 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <div className="footer-container">
+        <div className="footer-cards">
+          <h1 className="footer-header">RANKESH RAGUPATHY</h1>
+          <p className="footer-para">
+            Aspiring software engineer ready to contribute enthusiasm and fresh
+            perspectives to tackle challenges and learn
+          </p>
+        </div>
+        <div>
+          <h1 className="sm-header">SOCIAL MEDIA</h1>
+          <ul className="social-media">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rankesh-r"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin className="footer-icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/rankesh2004"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub className="footer-icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/r_rankesh"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsTwitterX className="footer-icon" />{" "}
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/916374752527"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SiWhatsapp className="footer-icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
